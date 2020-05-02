@@ -2,6 +2,10 @@ package com.example.demo.thread;
 
 public class VolatileTest {
 
+    /**
+     * 有volatile和没有的区别
+     */
+    //private static  boolean flag = true;
     private static volatile boolean flag = true;
 
     public static void main(String[] args) throws InterruptedException {
